@@ -83,7 +83,24 @@ All responses related to a command will echo the same UUID for easy matching.
 
 ### 4. Command Reference
 
-CommandParameter TypeDescriptionHELPnonePrint help textTYPE_HELPnonePrint help as keystrokesPINGnoneDevice responsiveness testSTATUSnoneQuery device statusLOREMnoneType Lorem Ipsum text (one block)LOREM_LINESnoneType Lorem Ipsum as four linesTEXTstringType message as keystrokesLINEstringType message plus newlineKEYkey tokenPress/release a single keyCOMBOcombo specPress combination (e.g., CTRL-ALT-DEL)EDITcut/copy/paste/selectallPerform edit actionHOLDkey tokenHold a key downRELEASE_KEYkey tokenRelease a specific keyRELEASE:ALLnoneRelease all held keysPASSWORDbase64 stringSecurely type decoded textPRIVATE:TEXTbase64 stringType decoded private text (not logged)see below...Plus many "CMD:"-prefixed control commands
+CommandParameter     Type                       Description
+HELP                 none                       Print help text
+TYPE_HELP            none                       Print help as keystrokes
+PING                 none                       Device responsiveness test
+STATUS               none                       Query device status
+LOREM                none                       Type Lorem Ipsum text (one block)
+LOREM_LINES          none                       Type Lorem Ipsum as four lines
+TEXT                 string                     Type message as keystrokes
+LINE                 string                     Type message plus newline
+KEY                  key token                  Press/release a single key
+COMBO                combo spec                 Press combination (e.g., CTRL-ALT-DEL)
+EDIT                 cut/copy/paste/selectall   Perform edit action
+HOLD                 key token                  Hold a key down
+RELEASE_KEY          key token                  Release a specific key
+RELEASE:ALL          none                       Release all held keys
+PASSWORD             base64 string              Securely type decoded text
+PRIVATE:TEXT         base64 string              Type decoded private text (not logged)see below...
+Plus many "CMD:"-prefixed control commands
 
 
 
